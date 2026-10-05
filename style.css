@@ -258,6 +258,71 @@ button .fas {
   color: #003c71;
 }
 
+.error-message {
+  background-color: #fef2f2;
+  color: #991b1b;
+}
+
+/* Saved attendee list */
+.attendee-list {
+  margin-top: 30px;
+  padding-top: 30px;
+  border-top: 2px solid #f1f5f9;
+  text-align: left;
+}
+
+.attendee-list h3 {
+  color: #64748b;
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+
+.attendee-list {
+  max-height: 360px;
+  overflow-y: auto;
+}
+
+.attendee-team {
+  margin-bottom: 18px;
+}
+
+.attendee-team:last-child {
+  margin-bottom: 0;
+}
+
+.attendee-team h4 {
+  padding: 10px 12px;
+  border-radius: 8px;
+  color: #475569;
+  font-size: 15px;
+}
+
+.attendee-team.water h4 {
+  background-color: #e8f7fc;
+}
+
+.attendee-team.zero h4 {
+  background-color: #ecfdf3;
+}
+
+.attendee-team.power h4 {
+  background-color: #fff7ed;
+}
+
+.attendee-team ul {
+  list-style: none;
+}
+
+.attendee-team li {
+  padding: 10px 12px;
+  border-bottom: 1px solid #f1f5f9;
+  color: #475569;
+}
+
+.attendee-team li:last-child {
+  border-bottom: none;
+}
+
 /* Counter */
 #attendeeCount {
   color: #0071c5;
@@ -317,6 +382,21 @@ select {
   margin-bottom: 20px;
 }
 
+.celebration {
+  display: none;
+  margin-bottom: 18px;
+  padding: 14px;
+  border: 2px solid #f59e0b;
+  border-radius: 12px;
+  background-color: #fffbeb;
+  color: #92400e;
+  font-weight: 700;
+}
+
+.celebration-visible {
+  display: block;
+}
+
 .teams-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -340,6 +420,12 @@ select {
 }
 .team-card.power {
   background-color: #fff7ed;
+}
+
+.team-card.winner {
+  border: 3px solid #f59e0b;
+  box-shadow: 0 0 0 4px #fef3c7;
+  transform: scale(1.03);
 }
 
 .team-name {
